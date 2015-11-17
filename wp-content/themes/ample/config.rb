@@ -11,3 +11,6 @@ javascripts_dir = "js" #targets our JavaScript directory
 # note: this is important in wordpress themes for sprites
 
 relative_assets = true
+
+output_style = :compressed
+environment = :development
