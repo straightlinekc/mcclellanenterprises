@@ -1,0 +1,88 @@
+#colophon {
+    padding: 40px 0;
+    .inner-wrap {
+        .footer-top {
+            .footer-company-info {
+                float: left;
+                .footer-logo {
+                    height: 100px;
+                    width: 120px;
+                }
+            }
+            .footer-right {
+                float: right;
+                .footer-nav {
+                    float: none;
+                    .menu-item {
+                        padding-left: 0;
+                        a {
+                            border-right: 1px solid $dark;
+                            padding-right: 15px;
+                            padding-left: 15px;
+                            &:hover {
+                                color: $dark;
+                            }
+                        }
+                        &:last-of-type a {
+                            border: none;
+                            padding-right: 0;
+                        }
+                    }
+                }
+                .footer-social {
+                    margin-top: 30px;
+                    text-align: right;
+                    .social-link {
+                        color: $dark;
+                        margin-left: 30px;
+                        i {
+                            color: $dark;
+                            font-size: 35px;
+                            -webkit-transition-duration: 1s; /* Safari */
+                            transition-duration: 1s;
+                            &:hover {
+                                color: $bright;
+                                -webkit-transition-duration: 1s; /* Safari */
+                                transition-duration: 1s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: $screenMdMax) {
+    #colophon .inner-wrap {
+        .footer-top {
+            .footer-company-info {
+                width: 100%;
+                text-align: center;
+            }
+            .footer-right {
+                float: none;
+                .footer-nav .menu-item:last-of-type a {
+                    padding-right: 15px;
+                }
+                .footer-social {
+                    text-align: center;
+                    margin-top: 20px;
+                    margin-bottom: 40px;
+                    .social-link {
+                        &:first-of-type {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-bottom {
+            .copyright-info {
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

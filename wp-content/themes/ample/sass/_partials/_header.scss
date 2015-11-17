@@ -1,0 +1,44 @@
+.site-header {
+    background: $primary !important;
+    a {
+        color: $dark !important;
+    }
+    .header {
+        .main-head-wrap {
+            @media(max-width: $screenMdMax) {
+                padding: 20px 0;
+            }
+            @media(max-width: $screenSmMax) {
+                padding: 15px 0;
+            }
+            #header-left-section {
+                #header-logo-image {
+                    img {
+                        height: 60px;
+                        width: 120px;
+                    }
+                }
+                #header-text {
+                    h1#site-title {
+
+                    }
+                }
+            }
+            #header-right-section {
+                #site-navigation {
+                    li {
+                        border-color: $dark;
+                        &:hover {
+                            // transition-duration: 4s
+                        }
+                    }
+                    .menu-toggle:before {
+                        color: $dark;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
