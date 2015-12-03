@@ -17,6 +17,7 @@
 /**
  * This hook is important for wordpress plugins and other many things
  */
+wp_enqueue_script("jquery");
 wp_head();
 ?>
 </head>
@@ -81,9 +82,16 @@ wp_head();
    <div class="main-wrapper">
 
       <?php if( ample_option('ample_activate_slider' , '0') == '1' ) {
-         if( is_front_page() ) {
-            ample_featured_image_slider();
-         }
+         if( is_front_page() ) { ?>
+            <div class="slider-wrap">
+               <?php ample_featured_image_slider(); ?>
+               <div class="slider-tagline">
+                  <div class="inner-wrap">
+                     <h4>Making your dream home a reality..</h4>
+                  </div>
+               </div>
+            </div>
+         <?php }
       }
       if( '' != ample_header_title() && !( is_front_page() ) ) {
          ?>

@@ -4,6 +4,9 @@
         .footer-top {
             .footer-company-info {
                 float: left;
+                .company-contact p {
+                    font-size: pxToEm(18);
+                }
                 .footer-logo {
                     height: 100px;
                     width: 120px;
@@ -33,10 +36,9 @@
                     margin-top: 30px;
                     text-align: right;
                     .social-link {
-                        color: $dark;
                         margin-left: 30px;
                         i {
-                            color: $dark;
+                            color: $darker;
                             font-size: 35px;
                             -webkit-transition-duration: 1s; /* Safari */
                             transition-duration: 1s;

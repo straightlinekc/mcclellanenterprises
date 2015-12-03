@@ -68,10 +68,13 @@ Text Domain: ample-child
 --------------------------------------------------------------*/
 
 // Import Partials
-@import "_partials/mixins";
 @import "_partials/variables";
-@import "_partials/typography";
 @import "_partials/defaults";
+@import "_partials/pure";
+@import "_partials/grid";
+@import "_partials/base";
+@import "_partials/mixins";
+@import "_partials/typography";
 @import "_partials/header";
 @import "_partials/footer";
 @import "_partials/home";
