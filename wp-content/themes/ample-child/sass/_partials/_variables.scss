@@ -1,13 +1,18 @@
+// COMMON VALUES
+
 $baseFontSize: 16px;
 $baseFontFamily: "HelveticaNeue", Helvetica, Arial, sans-serif;
 
 $textDark: #3C3744;
 $textLight: #D0D3C7;
 $primary: #052F5F;
+$primary-hover: #063C79;
 $secondary: #5C0029;
+$secondary-hover: #66002D;
 $bright: #FFFFFF;
-$dark: #D0D3C7;
-$darker: #3C3744;
+$dark: #F2F2F2;
+$darker: #D0D3C7;
+$darkest: #3C3744;
 
 $fontLight: 300;
 $fontNormal: 400;
@@ -17,4 +22,10 @@ $fontBold: 900;
 $screenXsMax: 420px;
 $screenSmMax: 600px;
 $screenMdMax: 768px;
-$screenLgMax: 1190px;
+$screenLgMax: 980px;
+
+$browser-context: 16; // Default
+
+@function pxToEm($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}

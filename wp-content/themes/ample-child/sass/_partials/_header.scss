@@ -1,21 +1,39 @@
 .site-header {
-    background: $primary !important;
+    width: 100%;
+    z-index: 999;
+    background: $primary;
+    @media(max-width: $screenLgMax) {
+        background: yellow;
+    }
+    @media(max-width: $screenMdMax) {
+        background: red;
+    }
+    @media(max-width: $screenSmMax) {
+        background: green;
+    }
+    @media(max-width: $screenXsMax) {
+        background: orange;
+    }
     a {
         color: $dark !important;
     }
     .header {
         .main-head-wrap {
-            @media(max-width: $screenMdMax) {
-                padding: 20px 0;
-            }
-            @media(max-width: $screenSmMax) {
-                padding: 15px 0;
-            }
             #header-left-section {
+                top: 0;
+                float: none;
+                position: absolute;
+                height: 130px;
+                width: 190px;
+                border: 6px solid $secondary;
+                border-top: none;
+                background: $bright;
+                z-index: 1;
                 #header-logo-image {
+                    padding: 0;
                     img {
-                        height: 60px;
-                        width: 120px;
+                        max-height: 130px;
+                        width: 100%;
                     }
                 }
                 #header-text {
@@ -28,13 +46,115 @@
                 #site-navigation {
                     li {
                         border-color: $dark;
-                        &:hover {
-                            // transition-duration: 4s
+                        a {
+                            font-size: pxToEm(18);
                         }
                     }
                     .menu-toggle:before {
                         color: $dark;
                     }
+                }
+            }
+        }
+    }
+}
+.main-wrapper {
+    .slider-wrap {
+        position: relative;
+        height: auto;
+        overflow: hidden;
+        figure {
+            margin: 0;
+        }
+        .slide-prev, .slide-next {
+            background-color: $darkest;
+            transition-duration: 1s;
+            &:hover {
+                background-color: $bright;
+                transition-duration: 0.5s;
+                a:before {
+                    color: $darkest;
+                    transition-duration: 0.5s;
+                }
+            }
+        }
+        .slider-tagline {
+            height: 100px;
+            background: rgba(92, 0, 41, .7);
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            border-top: 2px solid $dark;
+            border-bottom: 2px solid $dark;
+            h4 {
+                color: $dark;
+                font-size: pxToEm(56);
+                text-align: center;
+                height: 100%;
+                line-height: 100px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+@media(max-width: $screenLgMax) {
+    .main-wrapper {
+        .slider-wrap {
+            .slider-tagline {
+                height: 75px;
+                h4 {
+                    font-size: pxToEm(48);
+                    line-height: 75px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: $screenMdMax) {
+    .site-header {
+        .header .main-head-wrap {
+            .menu-toggle {
+                margin-top: -5px;
+            }
+            .fa.search-top {
+                line-height: 60px;
+                top: -30px;
+            }
+            #header-left-section {
+                #header-logo-image {
+                    img {
+                    }
+                }
+            }
+            #header-right-section {
+                .menu-main-navigation-container {
+                    ul {
+                    }
+                }
+            }
+        }
+    }
+    .main-wrapper {
+        margin-top: 0;
+        .slide-prev a, .slide-next a {
+            padding: 5px 12px;
+        }
+    }
+}
+
+@media(max-width: $screenSmMax) {
+    .main-wrapper {
+        .slider-wrap {
+            padding-bottom: 0;
+            border-bottom: 10px solid $secondary;
+            .slider-tagline {
+                display: none;
+                height: 50px;
+                h4 {
+                    font-size: pxToEm(32);
+                    line-height: 60px;
                 }
             }
         }
