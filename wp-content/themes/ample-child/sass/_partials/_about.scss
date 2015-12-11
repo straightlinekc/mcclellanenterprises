@@ -1,0 +1,28 @@
+.page-template-about {
+    .main-wrapper {
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .about-owners-content {
+            padding: 50px 0 0 0;
+            @media(max-width: $screenSmMax) {
+                padding-top: 30px;
+            }
+            .about-owners-image {
+                background: url(images/about_us_the_owners_star_wars.jpg) no-repeat;
+                background-size: cover;
+                padding: 15px;
+                height: 300px;
+            }
+            .about-owners-desc {
+                padding: 20px 0 20px 20px;
+                @media(max-width: $screenSmMax) {
+                    padding: 0;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

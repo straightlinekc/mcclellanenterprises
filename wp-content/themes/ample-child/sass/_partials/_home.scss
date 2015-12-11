@@ -1,5 +1,4 @@
 .welcome.section-wrapper {
-    padding: 50px 0;
     background: $bright;
     h2 {
         text-align: center;
@@ -31,12 +30,13 @@
             }
             h3 {
                 color: $darkest;
+                margin-top: 10px;
             }
             .circle-border-outer {
-                height: 120px;
-                border: 6px solid $darker;
+                height: 110px;
+                width: 110px;
+                border: 5px solid $calloutGray;
                 border-radius: 100%;
-                width: 120px;
                 margin: 0 auto;
                 position: relative;
                 background: $primary;
@@ -48,28 +48,23 @@
                     font-size: 60px;
                     margin-top: -35px;
                     margin-left: -30px;
-                    color: $darker;
+                    color: $calloutGray;
                     transition-duration: .5s;
                 }
-            }
-            h3 {
-                margin-top: 10px;
             }
         }
     }
 }
 .available-homes.section-wrapper {
-    padding: 50px 0;
     background: $primary;
     .available-homes-map {
         height: 300px;
         width: 95%;
         margin: 0 auto;
-        border: 10px solid $secondary;
+        border: 5px solid $secondary;
 
     }
     .available-homes-content {
-        height: 300px;
         width: 95%;
         margin: 0 auto;
         padding: 10px 20px;
@@ -87,33 +82,27 @@
             }
         }
         .see-homes-btn {
-            display: block;
-            width: 260px;
+            width: 270px;
             height: 40px;
-            line-height: 40px;
-            text-align: center;
-            text-transform: uppercase;
-            background: $secondary;
-            color: $dark;
-            margin: 0 auto;
-            font-weight: 500;
             margin-top: 30px;
-            letter-spacing: pxToEm(0.75);
-            transition-duration: .3s;
+            border: 1px solid $darker;
+            color: $darkest;
+            background: #999999;
+            font-weight: 900;
             &:hover {
-                background: $secondary-hover;
-                transition-duration: .3s;
-                cursor: pointer;
-                color: $bright;
+                background: $dark;
+            }
+            @media(max-width: $screenSmMax) {
+                width: 250px;
             }
         }
     }
 }
 .testimonials.section-wrapper {
-    padding: 50px 0;
     background: $bright;
     .bx-wrapper {
         .bx-viewport {
+            background: $dark;
             ul.testimonials-slider {
                 li {
                     .cbp-qtcontent {
@@ -179,6 +168,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0;
     .background-overlay {
         padding: 50px 0;
         height: 100%;
@@ -191,12 +181,51 @@
             padding: 0 20px;
         }
         .contact-content-wrap {
-            padding-top: 40px;
+            padding-top: 20px;
+            @media(max-width: $screenMdMax) {
+                padding-top: 0;
+            }
             h3, p {
                 color: white;
             }
             h3 {
                 text-align: center;
+            }
+            .phone-contact {
+                width: 185px;
+                margin: 0 auto;
+                position: relative;
+                i {
+                    color: white;
+                    font-size: pxToEm(22);
+                    display: inline-block;
+                }
+                .contact-phone-number {
+                    color: white;
+                    font-size: pxToEm(32);
+                    display: inline-block;
+                    padding-left: 5px;
+                }
+                .phone-link {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: none;
+                }
+                @media(max-width: $screenSmMax) {
+                    width: 155px;
+                    .phone-link {
+                        display: block;
+                    }
+                    i {
+                        font-size: pxToEm(18);
+                    }
+                    .contact-phone-number {
+                        font-size: pxToEm(26);
+                    }
+                }
             }
         }
         .contact-form-wrap {
@@ -286,17 +315,16 @@
                         margin-top: -20px;
                     }
                 }
-                h3 {
-                    font-size: 20px;
-                }
             }
         }
+    }
+    .contact-us.section-wrapper .contact-content h3 {
+        display: none;
     }
 }
 
 @media(max-width: $screenSmMax) {
     .welcome.section-wrapper {
-        padding: 30px 0;
         .callouts-wrapper {
             .callout-option {
                 .circle-border-outer {
@@ -309,20 +337,18 @@
                     }
                 }
                 h3 {
-                    font-size: 20px;
+                    font-size: pxToEm(20);
                 }
             }
         }
     }
     .available-homes.section-wrapper {
-        padding: 30px 0;
         .available-homes-content {
             height: auto;
             padding: 20px 10px 0;
         }
     }
     .testimonials.section-wrapper {
-        padding: 30px 0;
         .bx-wrapper {
             .bx-viewport {
                 ul.testimonials-slider {
@@ -371,7 +397,7 @@
                     }
                 }
                 h3 {
-                    font-size: 20px;
+                    font-size: pxToEm(24);
                 }
             }
         }

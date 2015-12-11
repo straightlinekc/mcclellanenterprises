@@ -15,25 +15,17 @@
       <div class="single-page clearfix">
          <div id="primary">
             <div id="content">
+
                <div class="welcome section-wrapper">
                   <div class="inner-wrap">
-
-
-                        <div class="section-head dark">
-                           <h2><?php the_field('front-page_welcome-title'); ?></h2>
-                           <div class="title-decoration">
-                              <?php echo do_shortcode("[wp-svg-icons icon='home' wrap='i']"); ?>
-                           </div>
+                     <div class="section-head dark">
+                        <h1><?php the_field('front-page_welcome-title'); ?></h1>
+                        <div class="title-decoration">
+                           <?php echo do_shortcode("[wp-svg-icons icon='home' wrap='i']"); ?>
                         </div>
-
-                        <p><?php the_field('front-page_welcome-paragraph'); ?></p>
-
-
-
-<!-- CALL OUT SECTION -->
-
+                     </div>
+                     <p><?php the_field('front-page_welcome-paragraph'); ?></p>
                      <div class="callouts-wrapper">
-
                         <div class="callout-option grid-xs-1 grid-sm-1-4 grid-md-1-4 grid-lg-1-4">
                            <a class="callout-link" id="callout-1">
                               <div class="circle-border-outer">
@@ -60,11 +52,10 @@
                            </a>
                            <h3><?php the_field('front-page_callout-title_3'); ?></h3>
                         </div>
-
                      </div>
-
                   </div><!-- .inner-wrap -->
                </div><!-- welcome -->
+
                <div class="available-homes section-wrapper"><a id="callout-1-section"></a>
                   <div class="inner-wrap">
                      <div class="section-head bright">
@@ -74,22 +65,23 @@
                         </div>
                      </div>
                      <div class="pure-g">
-                        <div class="available-homes-map-wrap grid-sm-1 grid-md-1-2 grid-lg-1-2">
+                        <div class="available-homes-map-wrap grid-sm-1 grid-md-1 grid-lg-1-2">
                            <div class="available-homes-map">
                               <?php echo do_shortcode("[put_wpgm id=1]"); ?>
                            </div>
                         </div>
-                        <div class="available-homes-content-wrap grid-sm-1 grid-md-1-2 grid-lg-1-2">
+                        <div class="available-homes-content-wrap grid-sm-1 grid-md-1 grid-lg-1-2">
                            <div class="available-homes-content">
                               <h3><?php the_field('front-page_available-homes-community-title'); ?></h3>
                               <p><?php the_field('front-page_available-homes-community-desc'); ?></p>
                               <a class="community-link" href="http://www.yourhomewichita.com/comm_detail.php?com=3">Learn more about Fox Ridge</a>
-                              <a class="see-homes-btn">See Our Available Homes</a>
+                              <a class="see-homes-btn btn" href="/available-homes">See Our Available Homes</a>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
+
                <div class="testimonials section-wrapper"><a id="callout-2-section"></a>
                   <div class="inner-wrap">
                      <div class="section-head dark">
@@ -118,6 +110,11 @@
                               <div class="contact-content">
                                  <h3><?php the_field('front-page_contact-subtitle'); ?></h3>
                                  <p class="contact-desc"><?php the_field('front-page_contact-desc'); ?></p>
+                                 <div class="phone-contact">
+                                    <?php echo do_shortcode("[wp-svg-icons icon='phone' wrap='i']"); ?>
+                                    <p class="contact-phone-number">316-641-7453</p>
+                                    <a class="phone-link" href="tel:316-641-7453"></a>
+                                 </div>
                               </div>
                            </div>
                            <div class="contact-form-wrap grid-sm-1 grid-md-1 grid-lg-1-2">
@@ -127,6 +124,7 @@
                      </div>
                   </div>
                </div>
+
             </div><!-- content -->
          </div><!-- primary -->
       </div><!-- .single-page -->
@@ -135,10 +133,16 @@
       jQuery(document).ready(function($) {
          $('.callout-link').on('click', function() {
             var calloutLink = $(this).attr('id');
-            $('#' + calloutLink + '-section').animatescroll({scrollSpeed:1000,padding:30});
+            var mq = window.matchMedia( "(max-width: 600px)" );
+            if (mq.matches) {
+               $('#' + calloutLink + '-section').animatescroll({scrollSpeed:1000,padding:30});
+            } else {
+               $('#' + calloutLink + '-section').animatescroll({scrollSpeed:1000,padding:50});
+            }
          })
       })
    </script>
-   <?php
+<?php
    do_action( 'ample_after_body_content' );
-get_footer(); ?>
+   get_footer();
+?>

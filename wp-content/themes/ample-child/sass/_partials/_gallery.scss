@@ -1,0 +1,21 @@
+.page-template-gallery {
+    .gallery-category-content {
+        padding: 50px 0 0 0;
+        @media(max-width: $screenSmMax) {
+            padding-top: 30px;
+        }
+        &.exteriors {
+            padding: 0;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .bwg_standart_thumb_spun1_0,
+        .bwg_standart_thumb_spun1_1 {
+            border: 2px solid $darker;
+            &:hover {
+                border: 2px solid $primary;
+            }
+        }
+    }
+}

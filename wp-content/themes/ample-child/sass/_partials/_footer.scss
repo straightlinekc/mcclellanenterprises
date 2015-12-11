@@ -1,19 +1,28 @@
 #colophon {
     padding: 40px 0;
+    background: $darkest;
     .inner-wrap {
         .footer-top {
             .footer-company-info {
                 float: left;
-                .company-contact p {
-                    font-size: pxToEm(18);
+                .company-contact {
+                    margin-top: 15px;
+                    p {
+                        font-size: pxToEm(20);
+                        color: $bright;
+                        line-height: 10px;
+                    }
                 }
                 .footer-logo {
-                    height: 100px;
-                    width: 120px;
+                    background: url(images/logo.jpg) no-repeat;
+                    background-size: cover;
+                    height: 135px;
+                    width: 200px;
+                    margin: 0 auto;
                 }
             }
             .footer-right {
-                float: right;
+                text-align: right;
                 .footer-nav {
                     float: none;
                     .menu-item {
@@ -40,15 +49,23 @@
                         i {
                             color: $darker;
                             font-size: 35px;
-                            -webkit-transition-duration: 1s; /* Safari */
+                            -webkit-transition-duration: 0.5s; /* Safari */
                             transition-duration: 1s;
                             &:hover {
                                 color: $bright;
-                                -webkit-transition-duration: 1s; /* Safari */
-                                transition-duration: 1s;
+                                -webkit-transition-duration: 0.5s; /* Safari */
+                                transition-duration: 0.5s;
                             }
                         }
                     }
+                }
+            }
+        }
+        .footer-bottom {
+            .copyright-info {
+                margin-top: 20px;
+                p {
+                    line-height: 10px;
                 }
             }
         }
@@ -61,9 +78,15 @@
             .footer-company-info {
                 width: 100%;
                 text-align: center;
+                .footer-logo {
+                    width: 150px;
+                    height: 102px;
+                }
+                .company-contact {
+                    margin: 20px 0;
+                }
             }
             .footer-right {
-                float: none;
                 .footer-nav .menu-item:last-of-type a {
                     padding-right: 15px;
                 }
@@ -82,7 +105,6 @@
         .footer-bottom {
             .copyright-info {
                 p {
-                    margin-bottom: 0;
                 }
             }
         }
