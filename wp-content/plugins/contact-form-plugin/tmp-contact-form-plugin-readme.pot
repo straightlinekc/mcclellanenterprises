@@ -1,0 +1,1139 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Contact Form by BestWebSoft"
+msgstr ""
+
+#. Short description.
+msgid "Add Contact Form to your WordPress website."
+msgstr ""
+
+#. Screenshot description.
+msgid "Plugin settings in WordPress admin panel."
+msgstr ""
+
+#. Screenshot description.
+msgid "Plugin additional settings."
+msgstr ""
+
+#. Screenshot description.
+msgid "Plugin appearance settings."
+msgstr ""
+
+#. Screenshot description.
+msgid "Widget settings for using shortcode in the sidebar."
+msgstr ""
+
+#. Screenshot description.
+msgid "Contact Form display."
+msgstr ""
+
+#. Screenshot description.
+msgid "Contact Form display with additional fields."
+msgstr ""
+
+#. Screenshot description.
+msgid "Contact Form display in 2 columns."
+msgstr ""
+
+#. Found in description list item.
+msgid "Add or remove additional fields easily and label any contact form fields you want."
+msgstr ""
+
+#. Found in description list item.
+msgid "Choose additional information about sender you would like to see."
+msgstr ""
+
+#. Found in description list item.
+msgid "Enable the file attachement option to get important files from senders via contact form."
+msgstr ""
+
+#. Found in description list item.
+msgid "Make any of the standard form fields required or not."
+msgstr ""
+
+#. Found in description list item.
+msgid "Translate your contact form to any language with a simple language customizer."
+msgstr ""
+
+#. Found in description list item.
+msgid "Receive a copy of the email sent via the contact form."
+msgstr ""
+
+#. Screenshot description.
+msgid "Divide your contact form fields into columns and change 'Submit' button position."
+msgstr ""
+
+#. Found in description list item.
+msgid "Re-order contact form fields using drag &amp; drop interface."
+msgstr ""
+
+#. Found in description header.
+msgid "Features"
+msgstr ""
+
+#. Found in description header.
+msgid "Recommended Plugins"
+msgstr ""
+
+#. Found in description header.
+msgid "Translation"
+msgstr ""
+
+#. Found in description header.
+msgid "Technical support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Easy to use, even for beginners"
+msgstr ""
+
+#. Found in description list item.
+msgid "Fully responsive contact form looks perfect on all screen sizes and mobile devices."
+msgstr ""
+
+#. Found in description list item.
+msgid "Specify your default and/or additional email addresses to receive email notifications."
+msgstr ""
+
+#. Found in description list item.
+msgid "Divide your contact form fields into columns."
+msgstr ""
+
+#. Found in description list item.
+msgid "Create unlimited number of forms (requires <a href=\"http://bestwebsoft.com/products/contact-form-multi/?k=34543c152eff369d529e9b4da85985a9\">Contact Form Multi by BestWebSoft</a> plugin)."
+msgstr ""
+
+#. Found in description list item.
+msgid "High quality protection: use captcha to prevent spam attacks (requires <a href=\"http://bestwebsoft.com/products/captcha/?k=45dcf2a5ccd70a7fc8606f8030730ac7\">Captcha by BestWebSoft</a> or <a href=\"http://bestwebsoft.com/products/google-captcha/?k=159789f556e3a9c58df8f25384903ba5\">Google Captcha (reCAPTCHA) by BestWebSoft</a> plugin)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Save, browse, delete or download messages that have been sent from the site via the Contact Form (requires <a href=\"http://bestwebsoft.com/products/contact-form-to-db/?k=d7d962591b5be0ce6c27af778b1b36ee\">Contact Form to DB by BestWebSoft</a> plugin)"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://wordpress.org/plugins/bws-smtp/\">SMTP by BestWebSoft</a> - SMTP by BestWebSoft plugin allows you to configure the sending email messages using mail gateways and email services such as Gmail, Yahoo, Hotmail and many others. This plugin offers an easy and problem-free solution to sending test emails, so that you will not have to struggle with bothersome settings configuration process."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://wordpress.org/plugins/email-queue/\">Email Queue by BestWebSoft</a> - This plugin gives you an opportunity to organize a simple and effective mail queue. You can assign priorities to plugins that send mail. You can manage outgoing messages: trash them or delete completely. You can use searching, filtering and bulk operations with your mail. The plugin works with plugins produced by BestWebSoft team only."
+msgstr ""
+
+#. Found in description list item.
+msgid "Afrikaans (af_ZA) (thanks to <a href=\"mailto:alducornelissen@gmail.com\">Aldu</a>)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Brazilian Portuguese (pt_BR) (thanks to <a href=\"mailto:brenojac@gmail.com\">Breno Jacinto</a>, www.iconis.org.br, <a href=\"mailto:wordpress@djio.com.br\">DJIO</a>, www.djio.com.br)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Catalan (ca) (thanks to <a href=\"mailto:kenneth@snollocer.net\">Kenneth</a>)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Chinese (zh_CN) (thanks to <a href=\"mailto:kplam@qq.com\">kplam</a>)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Estonian (et) (thanks to <a href=\"mailto:feliks@veebimeister.com\">Feliks</a>, www.veebimeister.com)"
+msgstr ""
+
+#. Found in description list item.
+msgid "French (fr_FR) (thanks Capronnier Luc)"
+msgstr ""
+
+#. Found in description list item.
+msgid "German (de_DE) (thanks to <a href=\"mailto:private18@web.de\">Alex</a>)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Greek (el) (thanks to Dimitris Karantonis, www.soft4real.com/en-UK)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Japanese (ja) (thanks to Foken)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Dutch (nl_NL) (thanks to <a href=\"mailto:olivier@oil5networks.com\">Olivier Smet</a>)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Norwegian (nb_NO) (thanks to <a href=\"mailto:bestwebsoftcontact@nordsoft.no\">Per Rommetveit</a>)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Russian (ru_RU)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Slovak (sk_SK) (thanks to <a href=\"mailto:michal.vittek@wp.sk\">Michal Vittek</a>, www.wp.sk)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Spanish (es_ES) (thanks to Javitopo)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Swedish (sv_SE) (thanks to Martin Tonek, <a href=\"mailto:joakim@limewoodmedia.com\">Joakim Lindskog</a>, <a href=\"mailto:maarten@vandendriest.com\">Maarten van den Driest</a> - www.crossanddot.nl)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Turkish (tr) (thanks to Can Atasever, www.canatasever.com)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Ukrainian (uk)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Vietnamese (vi) (thanks to <a href=\"mailto:bizover@gmail.com\">Dich Anh Viet</a>, www.bizover.net)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"The Contact Form plugin allows you to implement a feedback form to a web-page or a post in no time. It is an extremely easy form, that doesn’t require any additional settings, though there are some available options. All you need is just to activate the plugin and insert the shortcode [bestwebsoft_contact_form] into the text.\n"
+"There is also a premium version of the plugin with more useful features available."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "http://www.youtube.com/watch?v=nGwh-oslK-c"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://www.youtube.com/watch?v=IGHiY0-g40Y\">Contact Form by BestWebSoft Video instruction on Installation</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://wordpress.org/plugins/contact-form-plugin/faq/\">Contact Form by BestWebSoft FAQ</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://support.bestwebsoft.com\">Contact Form by BestWebSoft Support</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://bestwebsoft.com/products/contact-form/?k=4028655c87316c98ae9ac7ca1928067f\">Upgrade to Contact Form Pro by BestWebSoft</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The author of the Contact Form also recommends the following plugins:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you create your own language pack or update the existing one, you can send <a href=\"http://codex.wordpress.org/Translating_WordPress\">the text in PO and MO files</a> for <a href=\"http://support.bestwebsoft.com\">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files <a href=\"http://www.poedit.net/download.php\">Poedit</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Dear users, our plugins are available for free download. If you have any questions or recommendations regarding the functionality of our plugins (existing options, new options, current issues), please feel free to contact us. Please note that we accept requests in English only. All messages in another languages won't be accepted."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"If you notice any bugs in the plugins, you can notify us about it and we'll investigate and fix the issue then. Your request should contain URL of the website, issues description and WordPress admin panel credentials.\n"
+"Moreover we can customize the plugin according to your requirements. It's a paid service (as a rule it costs $40, but the price can vary depending on the amount of the necessary changes and their complexity). Please note that we could also include this or that feature (developed for you) in the next release and share with the other users then. \n"
+"We can fix some things for free for the users who provide translation of our plugin into their native language (this should be a new translation of a certain plugin, you can check available translations on the official plugin page)."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the <code>Contact Form</code> folder to the <code>/wp-content/plugins/</code> directory."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin using the 'Plugins' menu in your WordPress admin panel."
+msgstr ""
+
+#. Found in installation list item.
+msgid "You can adjust the necessary settings using your WordPress admin panel in \"BWS Plugins\" &gt; \"Contact Form\"."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Create a page or a post and insert the shortcode [bestwebsoft_contact_form] into the text."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<a href=\"https://docs.google.com/document/d/1obcWMPDPIIhUxcclYDwKSwNoFSHvGHyg_VKibjpQWTA/edit?pli=1\">View a PDF version of Step-by-step Instruction on Contact Form Installation</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "http://www.youtube.com/watch?v=IGHiY0-g40Y"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The bug with sorting on mobile devices was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : XSS vulnerability was removed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The bug with plugin menu duplicating was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The French language file is updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : An ability to sort contact form fields was added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : An ability to displaying contact form in 2 columns."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : A button for contact form shortcode inserting to the content was added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The Dutch language file is added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The method of the URL obtaining in the attribute \"action\" of the contact form has been changed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Vulnerabilities with <code>$path_of_upload_file</code> and <code>$form_action</code> was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 4.3."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : Text Domain was changed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New : Ability to restore settings to defaults. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed syntax error."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 4.2.4."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We fixed the url after the form is submitted."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We fixed display form for rtl."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We fixed error of a visual display of the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed 'Send me a copy' email with the attachment."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 4.2.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Bug with undefined function on plugin's settings page was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Bugs with syntax error and undefined function were fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Error with option name when Contact Form Multi plugin is activated was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : Plugin performance was improved."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : BWS plugins section was updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Bug with Contact Form impacting 'From name' headers in messages sent by other plugins was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : 'Additional options' block was moved to a new tab, which is now named 'Additional settings'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : 'Extra settings' tab name was changed to 'Appearance'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The Greek language file is added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : We added functionality for displaying two or more contact forms on a single page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We changed the layout of Contact Form from fixed to responsive."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The Japanese language file is updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The Estonian language file is updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The Norwegian and Russian language files are updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug with saving 'The $_SERVER variable that is used to build a URL of the form'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug with network activation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The Slovak language file is updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Budfix : Security Exploit was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for Email Queue plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The bug related to overwriting of the attachments with the same names was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : We added ability to use the changed names of the fields of the contact form in the sent letter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug with getting default settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug with plugin Contact Form Multi."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.9.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The Spanish language file is added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug of loading the user's list ( We have limited the list \"The user's email address\" on the settings page to the lowest role - author )."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.9."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug of db table creation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The Ukrainian language file is updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : Screenshots are updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.8.2."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The Afrikaans language file is added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug of the user's list on multisite."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Compatibility with plugin Contact Form Multi."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : 'xlsx' mime-type is added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added transition to the contact form after submitting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Budfix : Plugin optimization is done."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug of duplicate MIME-Version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The Estonian and German language file are added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Setting of choice for the form's action URL ($_SERVER['HTTP_HOST'] or $_SERVER['SERVER_NAME'])."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.8.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The Turkish and Vietnamese language file are added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The Chinese language file is added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.8."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We changed capability to 'manage_options' for the plugins settings pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Ability to send email in plain format."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : A notice when changing settings on the plugin's settings page was added. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Ability to not use name field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : We added mime types for .aar and .sce files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug related to use html-special chars."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : BWS plugins section is updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Ability to change tips below the Attachment block."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Ability to change required symbol (asterisk)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Add hide-button for the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Add checking installed wordpress version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : Activation of radio button or checkbox by clicking on its label."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.7.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Add option for saving emails into the DataBase."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : File format according JavaScript and CSS Coding Standards."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.7."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Compatibility with plugin Contact Form To DB."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug of uploading attachment in multisite."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Ability to not display asterisk near required fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The Brazilian Portuguese language file is updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Ability to use the name of the user who fills the form in the field 'From'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.6.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug related to manage languages on the plugin settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Compatibility with Captcha Pro."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : Function for displaying BWS plugins section placed in a separate file and has own language files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : Compatibility test with 20 most popular WordPress plugins. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug related to 'docx' mime type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We changed plugin settings page displaying."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added an ability to delete an attachment file from the server after the email is sent."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The Slovak language file is added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The French language file is updated. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug related to XSS attack."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.6."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the email validation bug."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We removed displaying of additional info in the copy of email to the sender."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added an ability to use diffrent shortcodes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The Swedish language file is updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added an ability to view and send system information by mail."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The Catalan language file is added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.5.2."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The setting of displaying Captcha is added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The Finnish language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug of display additional info in the email when email has an attachment."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added html blocks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The error related to use function 'get_userdatabylogin' instead 'get_user_by('login')' is fixed. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated the Italian, the French and the Brazilian Portuguese language files in the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added email adress as additiional form field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug of adding an attachment."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated the English text in the plugin file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : We fixed the bug of displaying phone error messages when a phone number field is not display."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The Serbian language file is updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The bug after clicking submit, when site uses a custom port, is fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added ability to change a label 'Send me a copy'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The bug of changing the message 'Action after email is sent' was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Hungarian language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The bug of displaying error messages was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Ukrainian language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : We added HTML tag for the text, that is displayed after email is sent."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Belarusian language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : European Portuguese language file is updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The error related to the cross-site scripting vulnerabilities was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We changed the English text in the plugin file and all language files were updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : Dutch language file was updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Bugs in admin menu were fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.5.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : Swedish language file was updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The error related to extra \"rn\" in the user email address when using WP_mail and in the Name field when using php_mail was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.5."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The error related to the empty label on the contact form was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Galician language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Multilanguage labels for fields is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The shortcode structure was changed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The error related to the saving of the field \"Change FROM fields of the contact form\" was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : The setting of the required fields was added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Persian language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : The email address validation was changed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added phone number as additiional form field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Serbian language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Czech and Romanian language files are added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Cross Site Request Forgery bug was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Japanese language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Cross Site Request Forgery bug was fixed. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Hebrew language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated French language file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.4.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : In the email in the field  Date/Time used correct time zone - instead of UTC we use local settings which are setup on the page  Settings -&gt; General."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added ability to select action after the send mail - Display text or Redirect to page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update : We updated all functionality for wordpress 3.4."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The bug of email address validation in admin section was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Arabic and Hindi language files is added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added ability to display or hide explanations after Attachment block."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Danish and Greek language files is added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added ability to send mail using the functional: wordpress wp_mail function or php mail function."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The form output code is validated. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New : The feature to setup the displaying of the additional information fields in the email was implemented (Sent from (ip address), Date/Time, Coming from (referer), Using (user agent))."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The bug of attribute action on element form was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added ability to change FROM fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change : French language file is changed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added ability to upload wav and mp3 files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : French language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added ability to use the contact form shortcode as widget in the sidebars."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change : The change was done to an email sending functionality – now it is using wordpress functionality only."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Bulgarian language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Spanish language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change : Code which includes styles and scripts is added to the plugin for correct SSL verification."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Norwegian language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Polish language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Dutch language file is added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The bug of sending emails to admin user even if a different user is specified when setting plugin to \"use email of wordpress user\" was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The bug of sending a blank attachment field of the form was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Brazilian Portuguese and Turkish language files were added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : German language files are added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : The bug related to resending of an email after the page is updated was fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Italian language files were added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : A possibility to change a label when the fields of the form are displayed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Display of the files types names that user can attach to an mail."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : 'Attachment' and 'Send me a copy' blocks were added to the contact form. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Language files are added to the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Slashes bug in email is fixed and server info is added to email."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The bug of complex form validation when captcha is not used in the contact form is fixed. Please upgrade immediately."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The bug of complex email validation when filling in the contact form is fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BWS Plugin's menu section was fixed and right now it is consisted of 2 parts: installed and recommended plugins. Icons displaying is fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The bug of using custom email is fixed in this version. Please upgrade the plugin immediately. Thank you"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The bug with the link to the settings page is fixed in this version. Please upgrade the plugin immediately. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Usability at the settings page of the plugin was improved."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Contact form email address bug is fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Thanks\" message display bug is fixed. Radio buttons automatic switching is added (for the settings page) after setting mouse cursor (clicking) at a text field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Contact form positioning bug is fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ability to add Contact Form into a post. Ability to adjust displaying of the form via shortcode is added."
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I find the settings to adjust the plugin work after activation?"
+msgstr ""
+
+#. Found in faq header.
+msgid "After the plugin installation I haven't adjusted the settings. What is the default email address used for a contact via the form?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I add Contact Form to my website?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I chose a user via the plugin settings and got this error: \"Please enter a valid email address. Settings are not saved.\""
+msgstr ""
+
+#. Found in faq header.
+msgid "How to add the contact form not in English?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'm not receiving messages from Contact Form OR The plugin does not send an email - \"Sorry, email message could not be delivered.\""
+msgstr ""
+
+#. Found in faq header.
+msgid "Why the contact form is displayed in one column, if I've chosen two columns displaying on the plugin settings page?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I have some problems with the plugin's work. What Information should I provide to receive proper support?"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Add a language in the block \"Language settings for the field names in the form\" on the plugin settings page."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Mark the check box (if it's not marked yet) in the block  \"Change the names of the contact form fields and error messages\", choose the necessary tab,click the twistie to expand the list of the fields and fill in the fields. Choose the necessary tab in the block \"Action after email is sent\" as well and fill in the field. Save the changes."
+msgstr ""
+
+#. Found in faq list item.
+msgid "You will see the shortcode under the tab with the necessary language. Please paste that shortcode to the page or post. "
+msgstr ""
+
+#. Found in faq list item.
+msgid "Please check the plugin settings '/wp-admin/admin.php?page=contact_form.php' =&gt; 'What to use?' =&gt; change the lines from wp-mail to mail and vice versa."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Email messages can be marked as spam on the server. Please choose another email instead of the admin's one ('Use this email:' block) - for example, gmail or similar. If the message is sent, it means that email filtering is set on your server. Please contact your hosting provider."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Perhaps email sending is not set. You should install an extra plugin called <a href=\"https://wordpress.org/plugins/bws-smtp/\">SMTP by BestWebSoft</a> and configure it. Afterwards you should open the \"Send A Test Email\" tab on the plugin settings page, check an option \"Display log\", send a test email and you will see if the plugin logs have errors."
+msgstr ""
+
+#. Found in faq list item.
+msgid "The link to the page where the problem occurs."
+msgstr ""
+
+#. Found in faq list item.
+msgid "The name of the plugin and its version. If you are using a pro version - your order number."
+msgstr ""
+
+#. Found in faq list item.
+msgid "The version of your WordPress installation."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Copy and paste into the message your system status report. Please read more here: <a href=\"https://docs.google.com/document/d/1Wi2X8RdRGXk9kMszQy1xItJrpN0ncXgioH935MaBKtc/edit?pli=1\">Instruction on System Status</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "In the 'Plugin' menu you can find a link to the settings page."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The address specified during WordPress installation will be used by the Contact Form plugin as the default one."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You should put the shortcode [bestwebsoft_contact_form] into your page or post."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This means that you made a syntax error."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please follow the instructions below:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Note: If the Contact Form sends letters, but you don't receive them, you can install our plugin Contact Form to DB in order not to lose the sent letters for the time the problem is being solved."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This happens when there is not enough the minimum width of the parent block where the contact form is located."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please make sure that the problem hasn't been discussed yet on our forum (<a href=\"http://support.bestwebsoft.com\">http://support.bestwebsoft.com</a>). If no, please provide the following data along with your problem's description:"
+msgstr ""

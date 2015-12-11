@@ -3,8 +3,15 @@
     padding: 0;
 }
 
-h2 {
+h1, h2 {
     padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    @media(max-width: $screenSmMax) {
+        font-size: pxToEm(24);
+    }
 }
 
 body {
@@ -13,8 +20,74 @@ body {
 
 p {
     font-size: pxToEm(18);
+    color: $darker;
     @media(max-width: $screenSmMax) {
         font-size: pxToEm(16);
+    }
+}
+
+.btn {
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background: $secondary;
+    color: $dark;
+    margin: 0 auto;
+    font-weight: 500;
+    letter-spacing: pxToEm(1);
+    transition-duration: .3s;
+    font-size: pxToEm(14);
+    &:hover {
+        background: $secondary-hover;
+        transition-duration: .3s;
+        cursor: pointer;
+        color: $bright;
+    }
+}
+
+.banner {
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 0;
+    @media(max-width: $screenSmMax) {
+        border-bottom: 10px solid $secondary;
+    }
+    img {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+
+.slider-tagline,
+.banner-tagline {
+    height: 100px;
+    background: rgba(92, 0, 41, .7);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top: 2px solid $dark;
+    border-bottom: 2px solid $dark;
+    h4 {
+        color: $dark;
+        font-size: pxToEm(56);
+        text-align: center;
+        height: 100%;
+        line-height: 100px;
+        font-weight: 300;
+    }
+    @media(max-width: $screenLgMax) {
+        height: 75px;
+        h4 {
+            font-size: pxToEm(48);
+            line-height: 75px;
+        }
+    }
+    @media(max-width: $screenSmMax) {
+        display: none;
     }
 }
 
@@ -32,11 +105,32 @@ a#scroll-up {
     max-width: 980px;
 }
 
+.section-wrapper {
+    padding: 50px 0;
+    @media(max-width: $screenSmMax) {
+        padding: 30px 0;
+    }
+}
+
+.content-sub-section {
+    padding-top: 20px;;
+}
+
+.subhead-no-dec {
+    background: $dark;
+    color: $primary;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
 .section-head {
     margin-bottom: 30px;
-    h2 {
+    h1, h2 {
         text-align: center;
         font-size: pxToEm(36);
+        @media(max-width: $screenSmMax) {
+            font-size: pxToEm(30);
+        }
     }
     .title-decoration {
         width: 300px;
@@ -52,7 +146,7 @@ a#scroll-up {
         }
     }
     &.dark {
-        h2 {
+        h1, h2 {
             color: $darkest;
         }
         .title-decoration {
@@ -63,7 +157,7 @@ a#scroll-up {
         }
     }
     &.bright {
-        h2 {
+        h1, h2 {
             color: $dark;
         }
         .title-decoration {
@@ -71,6 +165,27 @@ a#scroll-up {
             i {
                 color: $bright;
             }
+        }
+    }
+}
+.error-msg {
+    h1 {
+        font-size: pxToEm(50);
+    }
+    p {
+        font-size: pxToEm(26);
+        @media(max-width: $screenMdMax) {
+            font-size: pxToEm(18);
+        }
+    }
+    a {
+        font-size: pxToEm(18);
+        color: $secondary;
+        display: block;
+        font-weight: 900;
+        margin-bottom: 10px;
+        &:hover {
+            color: $darker;
         }
     }
 }

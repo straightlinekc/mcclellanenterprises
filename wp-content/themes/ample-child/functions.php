@@ -40,4 +40,6 @@ function load_animate_scroll_with_jquery()
        wp_enqueue_script( 'animate-scroll' );
    }
    add_action( 'wp_enqueue_scripts', 'load_animate_scroll_with_jquery' );
+
 ?>
+

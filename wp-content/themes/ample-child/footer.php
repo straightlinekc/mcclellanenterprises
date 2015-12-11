@@ -14,7 +14,7 @@
 
             <div class="footer-top clearfix">
                 <div class="footer-company-info">
-                    <img class="footer-logo" src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.jpg">
+                    <div class="footer-logo"></div>
                     <div class="company-contact">
                         <p>1108 W 34th St</p>
                         <p>Wichita, KS 67204</p>

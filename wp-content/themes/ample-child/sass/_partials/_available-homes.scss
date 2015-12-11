@@ -1,0 +1,85 @@
+.page-template-available-homes {
+    .available-homes-comm-desc {
+        padding: 50px 0 0 0;
+        @media(max-width: $screenSmMax) {
+            padding-top: 30px;
+        }
+    }
+    .available-homes-listings {
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .home-listings {
+            .home-listing-container {
+                padding: 25px;
+                background: $bright;
+                transition-duration: 0.75s;
+                @media(max-width: $screenSmMax) {
+                    background: $dark;
+                    margin-bottom: 20px;
+                }
+                &:hover {
+                    background: $dark;
+                    transition-duration: 0.75s;
+                }
+                .listing-image {
+                    position: relative;
+                    img {
+                        margin-bottom: 0;
+                        width: 100%;
+                    }
+                    .listing-reveal {
+                        display: none;
+                        width: 100%;
+                        height: 40px;
+                        background: $darkest;
+                        background: rgba(3, 52, 99, .8);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        p {
+                            color: $bright;
+                            text-align: center;
+                            line-height: 40px;
+                            height: 40px;
+                        }
+                        @media(max-width: $screenMdMax) {
+                            display: block;
+                        }
+                        @media(max-width: $screenSmMax) {
+                            height: 50px;
+                            p {
+                                height: 50px;
+                                line-height: 50px;
+                            }
+                        }
+                    }
+                }
+                .listing-title h3 {
+                    color: $primary;
+                    font-weight: 900;
+                    border-bottom: 1px solid $darker;
+                    padding-bottom: 0;
+                    margin: 15px 0;
+                }
+                .listing-features {
+                    p {
+                        color: $darkest;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        .feature-label {
+                            color: $primary;
+                            font-weight: 900;
+                        }
+                    }
+                    .home-listing-btn {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

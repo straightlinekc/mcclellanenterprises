@@ -95,12 +95,4 @@ wp_head();
       }
       if( '' != ample_header_title() && !( is_front_page() ) ) {
          ?>
-         <div class="header-post-title-container clearfix">
-            <div class="inner-wrap">
-               <div class="post-title-wrapper">
-                  <h1 class="header-post-title-class entry-title"><?php echo ample_header_title(); ?></h1>
-               </div>
-               <?php if( function_exists( 'ample_breadcrumb' ) ) { ample_breadcrumb(); } ?>
-            </div>
-         </div>
      <?php } ?>

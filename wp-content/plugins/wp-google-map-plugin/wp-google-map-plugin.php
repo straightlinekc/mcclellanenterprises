@@ -3,7 +3,7 @@
  * Wpgmp_Google_Map_Lite class file.
  * @package Maps
  * @author Flipper Code <hello@flippercode.com>
- * @version 3.0.5
+ * @version 3.0.7
  */
 
 /*
@@ -12,7 +12,7 @@ Plugin URI: http://www.flippercode.com/
 Description: Display Google Maps in Pages, Posts, Sidebar or Custom Templates. Unlimited maps, locations and categories supported. It’s Responsive, Multi-Lingual and Multi-Site Supported.
 Author: flippercode
 Author URI: http://www.flippercode.com/
-Version: 3.0.5
+Version: 3.0.7
 Text Domain: wpgmp_google_map
 Domain Path: /lang/
 */
@@ -86,10 +86,11 @@ if ( ! class_exists( 'Wpgmp_Google_Map_Lite' ) ) {
 			} else {
 				$wpgmp_apilocation = 'http';
 			}
+
 			if ( get_option( 'wpgmp_api_key' ) != '' ) {
-				$wpgmp_apilocation .= '://www.google.com/jsapi?key='.get_option( 'wpgmp_api_key' );
+				$wpgmp_apilocation .= '://maps.google.com/maps/api/js?key='.get_option( 'wpgmp_api_key' ).'&libraries=geometry,places,weather,panoramio,drawing&language=en';
 			} else {
-				$wpgmp_apilocation .= '://www.google.com/jsapi';
+				$wpgmp_apilocation .= '://maps.google.com/maps/api/js?libraries=geometry,places,weather,panoramio,drawing&language=en';
 			}
 
 			$scripts[] = array(
@@ -290,23 +291,18 @@ if ( ! class_exists( 'Wpgmp_Google_Map_Lite' ) ) {
 		 */
 		function wpgmp_backend_scripts() {
 
+			if ( isset( $_SERVER['HTTPS'] ) && ( 'on' == $_SERVER['HTTPS'] || 1 == $_SERVER['HTTPS'] ) || isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && 'https' == $_SERVER['HTTP_X_FORWARDED_PROTO'] ) {
+					$wpgmp_apilocation = 'https';
+				} else {
+					$wpgmp_apilocation = 'http';
+				}
+
 			if ( get_option( 'wpgmp_api_key' ) != '' ) {
-				if ( isset( $_SERVER['HTTPS'] ) && ( 'on' == $_SERVER['HTTPS'] || 1 == $_SERVER['HTTPS'] ) || isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && 'https' == $_SERVER['HTTP_X_FORWARDED_PROTO'] ) {
-					$wpgmp_apilocation = 'https';
+				$wpgmp_apilocation .= '://maps.google.com/maps/api/js?key='.get_option( 'wpgmp_api_key' ).'&libraries=geometry,places,weather,panoramio,drawing&language=en';
 				} else {
-					$wpgmp_apilocation = 'http';
-				}
-
-				$wpgmp_apilocation .= '://www.google.com/jsapi?key='.get_option( 'wpgmp_api_key' );
-			} else {
-				if ( isset( $_SERVER['HTTPS'] ) && ( 'on' == $_SERVER['HTTPS'] || 1 == $_SERVER['HTTPS'] ) || isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && 'https' == $_SERVER['HTTP_X_FORWARDED_PROTO'] ) {
-					$wpgmp_apilocation = 'https';
-				} else {
-					$wpgmp_apilocation = 'http';
-				}
-
-				$wpgmp_apilocation .= '://www.google.com/jsapi';
+					$wpgmp_apilocation .= '://maps.google.com/maps/api/js?libraries=geometry,places,weather,panoramio,drawing&language=en';
 			}
+
 
 			wp_enqueue_style( 'thickbox' );
 			wp_enqueue_style( 'wp-color-picker' );

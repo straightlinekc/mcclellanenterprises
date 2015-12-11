@@ -1,39 +1,42 @@
-.site-header {
+.business-template #masthead,
+#masthead {
     width: 100%;
     z-index: 999;
     background: $primary;
     @media(max-width: $screenLgMax) {
-        background: yellow;
+        border: 3px solid yellow;
     }
     @media(max-width: $screenMdMax) {
-        background: red;
+        border: 3px solid red;
     }
     @media(max-width: $screenSmMax) {
-        background: green;
+        border: 3px solid green;
     }
     @media(max-width: $screenXsMax) {
-        background: orange;
+        border: 3px solid orange;
     }
     a {
-        color: $dark !important;
+        color: $dark;
     }
     .header {
         .main-head-wrap {
+            padding: 20px 0;
             #header-left-section {
-                top: 0;
+                top: 32px;
                 float: none;
                 position: absolute;
-                height: 130px;
                 width: 190px;
                 border: 6px solid $secondary;
                 border-top: none;
                 background: $bright;
                 z-index: 1;
+                padding: 10px 20px;
                 #header-logo-image {
                     padding: 0;
                     img {
                         max-height: 130px;
                         width: 100%;
+                        display: block;
                     }
                 }
                 #header-text {
@@ -43,11 +46,30 @@
                 }
             }
             #header-right-section {
+                .fa.search-top {
+                    display: none;
+                }
                 #site-navigation {
                     li {
                         border-color: $dark;
                         a {
                             font-size: pxToEm(18);
+                            &:after {
+                                content: none;
+                            }
+                        }
+                        ul.sub-menu {
+                            background-color: $bright;
+                            li {
+                                &:hover {
+                                    background-color: $dark;
+                                }
+                                a {
+                                    text-align: center;
+                                    color: $darkest;
+                                    font-size: pxToEm(14);
+                                }
+                            }
                         }
                     }
                     .menu-toggle:before {
@@ -65,10 +87,16 @@
         overflow: hidden;
         figure {
             margin: 0;
+            img {
+                width: 100%;
+            }
         }
         .slide-prev, .slide-next {
-            background-color: $darkest;
+            background-color: $bright;
             transition-duration: 1s;
+            a:before {
+                color: $darker;
+            }
             &:hover {
                 background-color: $bright;
                 transition-duration: 0.5s;
@@ -78,59 +106,62 @@
                 }
             }
         }
-        .slider-tagline {
-            height: 100px;
-            background: rgba(92, 0, 41, .7);
-            width: 100%;
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            border-top: 2px solid $dark;
-            border-bottom: 2px solid $dark;
-            h4 {
-                color: $dark;
-                font-size: pxToEm(56);
-                text-align: center;
-                height: 100%;
-                line-height: 100px;
-                font-weight: 300;
-            }
-        }
-    }
-}
-@media(max-width: $screenLgMax) {
-    .main-wrapper {
-        .slider-wrap {
-            .slider-tagline {
-                height: 75px;
-                h4 {
-                    font-size: pxToEm(48);
-                    line-height: 75px;
-                }
-            }
-        }
     }
 }
 
-@media(max-width: $screenMdMax) {
-    .site-header {
+@media(max-width: $screenLgMax) {
+    #masthead {
         .header .main-head-wrap {
+            padding: 15px 0;
+            #header-left-section {
+                width: 160px;
+            }
+        }
+    }
+}
+@media(max-width: $screenMdMax) {
+    #masthead {
+        .header .main-head-wrap {
+            padding: 30px 0;
             .menu-toggle {
                 margin-top: -5px;
             }
-            .fa.search-top {
-                line-height: 60px;
-                top: -30px;
-            }
             #header-left-section {
+                width: 125px;
+                border-width: 3px;
+                padding: 5px 10px;
                 #header-logo-image {
                     img {
                     }
                 }
             }
             #header-right-section {
-                .menu-main-navigation-container {
-                    ul {
+                #site-navigation {
+                    #menu-main-navigation {
+                        &>li:first-of-type {
+                            padding-top: 50px;
+                        }
+                    }
+                    li {
+                        a {
+                            color: $dark;
+                            border-color: $darker;
+                            &:hover {
+                                color: $bright;
+                            }
+                        }
+                        ul.sub-menu {
+                            background-color: transparent;
+                            li {
+                                &:hover {
+                                    background-color: transparent;;
+                                }
+                                a {
+                                    text-align: left;
+                                    color: $dark;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -145,18 +176,22 @@
 }
 
 @media(max-width: $screenSmMax) {
+    #masthead {
+        .header .main-head-wrap {
+            padding: 25px 0;
+            #header-left-section {
+                width: 105px;
+                #header-logo-image {
+                    img {
+                    }
+                }
+            }
+        }
+    }
     .main-wrapper {
         .slider-wrap {
             padding-bottom: 0;
             border-bottom: 10px solid $secondary;
-            .slider-tagline {
-                display: none;
-                height: 50px;
-                h4 {
-                    font-size: pxToEm(32);
-                    line-height: 60px;
-                }
-            }
         }
     }
 }
